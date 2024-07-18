@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eiduca
+  profiles:
+    active: ${PROFILE:dev}
+  jpa:
+    hibernate:
+      ddl-auto: ${DDL:update}
