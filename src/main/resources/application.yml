@@ -6,3 +6,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: ${DDL:update}
+    properties:
+      org:
+        hibernate:
+          envers:
+            store_data_at_delete: true
+apiPrefix: /api/v1

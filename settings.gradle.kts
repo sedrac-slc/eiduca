@@ -1,1 +1,1 @@
-rootProject.name = "eiduca"
+rootProject.name = "eiduca-api"
